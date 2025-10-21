@@ -1,101 +1,101 @@
-customer_id,name,email,phone,city,registration_date
-C001,Marianne du Mallet,pascalauguste@example.org,+33 4 56 34 79 78,Faure-la-Forêt,2024-03-15
-C002,Joséphine Thibault,jeannine89@example.net,05 61 59 91 35,Pons,2025-10-11
-C003,Olivier Guilbert,hoareauleon@example.org,+33 5 57 43 72 99,Laine-la-Forêt,2025-04-23
-C004,Frédéric Le Becker,letelliernathalie@example.net,02 61 18 20 66,Da Costa,2025-07-11
-C005,Arthur Grondin,duhamelremy@example.com,0499790429,Sainte Pénélopedan,2024-09-29
-C006,Thomas Legrand,aurore78@example.org,03 68 83 98 04,Germain,2024-02-07
-C007,Margaret Nicolas,jguichard@example.com,+33 2 69 73 51 12,Sainte Antoine,2024-10-07
-C008,Alexandre Rousseau,margaretpruvost@example.org,0633085063,Bernardnec,2025-07-25
-C009,Jules Adam-Fouquet,bernard21@example.com,0320001749,Blanc-la-Forêt,2024-08-19
-C010,Françoise-Denise Joseph,nicolasmendes@example.com,0278160181,Pascal-sur-Seguin,2024-12-16
-C011,Matthieu Pierre,gmerle@example.org,04 83 43 59 38,Jourdan-sur-Dumas,2025-02-01
-C012,Lucy Gaudin,camille87@example.org,+33 (0)4 82 25 56 54,Saint Benjamin,2024-02-20
-C013,Lorraine Monnier,uaubert@example.com,01 49 34 63 77,Ramos,2025-06-25
-C014,Nathalie Maurice,anastasielelievre@example.org,+33 (0)6 15 99 73 23,Fontaine,2023-11-10
-C015,Aurore Dubois,roland08@example.com,+33 (0)2 31 50 73 60,Auger,2025-08-29
-C016,Christiane de Pinto,tristan06@example.com,+33 1 76 65 96 53,Garcia,2024-06-27
-C017,Luc Carre,daniellepruvost@example.com,+33 3 53 16 84 84,Saint Adrienne,2025-08-30
-C018,Georges Roger-Guillaume,de-oliveiragabrielle@example.com,+33 (0)4 15 74 67 79,Klein,2025-06-25
-C019,Olivie Baudry-Fontaine,christianegosselin@example.net,0422534195,Pasquier,2024-02-22
-C020,Élise Rousset,jblot@example.com,06 60 99 34 38,Sainte Emmanuelle-la-Forêt,2025-06-19
-C021,Julie de Fernandes,edouardsauvage@example.org,0427123756,Sainte Martin-les-Bains,2024-02-07
-C022,Marine Morel,kantoine@example.com,01 73 36 96 49,Delorme,2024-12-04
-C023,Laurent Boulanger,marianne43@example.com,+33 7 43 49 22 20,Maillet,2023-11-29
-C024,Hugues Delannoy,lebretonceline@example.com,03 58 07 97 11,Chauvetnec,2024-11-20
-C025,Étienne Langlois,henri42@example.org,05 35 94 72 11,Sainte Claudine,2024-07-24
-C026,Roland Leleu Le Charpentier,milletmarie@example.org,+33 4 88 07 95 51,Saint Maurice,2025-03-03
-C027,Antoine-Christophe Arnaud,pascalcapucine@example.com,03 66 43 52 73,Sainte Nathalienec,2025-02-16
-C028,Michelle Berger,poirierjosephine@example.org,+33 2 32 37 29 08,Pierre,2024-08-15
-C029,Paul de la Jourdan,astridlamy@example.net,+33 (0)5 55 65 69 18,Alves,2024-09-23
-C030,Alfred Georges,ylenoir@example.net,04 20 90 76 42,Besnard-sur-Barbe,2025-02-18
-C031,Margot Leduc,yfouquet@example.org,+33 5 61 27 18 33,Pinto,2024-10-18
-C032,Thérèse Paul,ybesnard@example.org,06 34 15 28 19,Charles,2024-07-26
-C033,Aurélie-Victoire Martins,robertchristophe@example.com,+33 (0)5 16 67 28 98,Boucher,2025-02-16
-C034,Victoire Vasseur,daniel80@example.org,0387066940,Mallet-les-Bains,2025-02-12
-C035,Roland Delmas,emile16@example.org,+33 (0)6 13 51 21 75,Sainte Anastasie,2024-10-05
-C036,François-Adrien Leroux,gregoire35@example.com,+33 2 51 02 15 77,Caronnec,2024-04-16
-C037,Raymond Dijoux,didieranastasie@example.com,+33 (0)4 66 58 17 15,Raynaud,2024-01-13
-C038,Emmanuelle Leleu,theophilemorvan@example.com,+33 (0)3 84 18 70 09,Mathieu,2024-06-27
-C039,Auguste Reynaud,traorehenri@example.org,+33 (0)3 53 48 91 03,Sainte Arthurdan,2024-09-25
-C040,Dominique Neveu de la Dupré,augustin38@example.com,04 72 20 89 80,Sainte Louis,2024-12-02
-C041,Thomas Peron,claudinejourdan@example.net,02 53 64 32 25,Launay,2025-05-13
-C042,Jacqueline-Aurore Vidal,alaingrondin@example.com,+33 (0)4 75 81 46 39,Tanguynec,2024-02-01
-C043,Xavier Rivière de la Tanguy,agathefleury@example.com,0355943839,Maury-sur-Delaunay,2024-04-28
-C044,Eugène-Philippe Lelièvre,olivierlaporte@example.net,+33 (0)4 97 05 32 39,Mary-sur-Morel,2024-04-24
-C045,Luce Millet,chevaliereleonore@example.com,0480488308,Vidal,2024-03-23
-C046,Maggie Gay,mathilde53@example.com,+33 (0)2 52 05 27 25,Pires-les-Bains,2025-04-01
-C047,Étienne Reynaud du Carpentier,theophile12@example.org,06 79 70 80 35,Lacombe,2025-06-18
-C048,Françoise Roy Le Dupont,josephine56@example.com,05 96 68 75 60,Laroche-sur-Mer,2025-05-13
-C049,Michelle de Dupont,sadam@example.org,0324285091,Verdier-sur-Bonneau,2024-07-20
-C050,Susanne Pinto,rene10@example.com,0387315853,Huet,2024-10-25
-C051,Michelle Payet,boulangercorinne@example.net,+33 1 47 62 37 56,Schmitt,2024-02-09
-C052,Gabriel Tessier,anouk41@example.org,+33 (0)6 38 05 14 96,RenaultBourg,2025-04-22
-C053,Nath Bonneau,cecile75@example.net,+33 5 94 31 60 56,Saint Claire,2024-10-17
-C054,Charlotte Le Gall,denise37@example.org,04 38 96 31 91,Boulanger-les-Bains,2024-02-01
-C055,Théophile Perret,anoukjoubert@example.com,01 79 82 10 51,BernardVille,2025-03-08
-C056,Gilbert Letellier de la Fernandez,alexandriaguyon@example.org,0579555353,Lefèvre-sur-Sanchez,2025-10-08
-C057,Georges Colin,alexandria52@example.com,+33 (0)6 44 09 38 26,Vasseur-sur-Mer,2025-03-27
-C058,Amélie Merle-Vincent,alexandreprevost@example.org,02 23 30 18 86,Lejeune-sur-Mer,2025-08-28
-C059,Maggie Blot,massonaime@example.net,+33 (0)6 02 48 10 75,Joubert-sur-Lombard,2024-01-08
-C060,Thierry Coulon,helene81@example.net,+33 (0)4 44 38 00 16,Lecomte,2024-11-29
-C061,Henri Alves,renee66@example.net,01 60 93 50 72,Aubert,2025-04-13
-C062,Victor Monnier,ponsdenise@example.org,02 62 95 99 85,Saint Margaux,2024-08-11
-C063,Claude Lemoine,julie37@example.net,0479602507,Arnauddan,2024-02-27
-C064,Emmanuel Bègue,laurencebarbe@example.net,+33 (0)2 47 70 35 34,Besnard-sur-Mer,2024-11-04
-C065,Paul-Grégoire Courtois,joubertlaurent@example.org,+33 2 50 60 99 98,Rivière-sur-Lemaire,2024-04-04
-C066,Hélène Legrand,igermain@example.org,0470908645,Simon,2023-10-30
-C067,Luc Leconte,carpentiermartin@example.net,+33 (0)4 58 76 86 53,LoiseauVille,2024-02-09
-C068,Geneviève-Simone Martineau,luc38@example.com,+33 1 39 17 40 87,Garcia-sur-Mer,2024-09-12
-C069,Cécile Masson,duhamelcelina@example.net,05 79 96 73 75,Tanguy-les-Bains,2025-07-26
-C070,Madeleine Gay,oalbert@example.org,+33 5 45 75 90 03,LenoirVille,2024-04-07
-C071,Laurent Lebon,alfred49@example.org,+33 (0)6 38 52 14 34,Hernandez,2024-12-13
-C072,Lucie Leclercq du Dupré,alexandrejuliette@example.org,+33 (0)4 80 32 90 98,Leduc,2024-05-04
-C073,Alfred Charpentier de la Laporte,margauxgrondin@example.org,0469687574,Sainte Charles,2025-06-11
-C074,Nathalie de Blanc,adriennelaunay@example.org,+33 (0)3 60 12 98 66,Techer,2025-04-16
-C075,Robert Turpin du Hernandez,ygoncalves@example.com,01 78 01 56 72,Ribeiro,2025-03-30
-C076,Anastasie-Arnaude Nicolas,maggiereynaud@example.org,+33 1 73 98 52 62,Lagarde,2024-09-29
-C077,Margaux de Chevallier,juliettegillet@example.net,+33 2 77 72 99 63,Brun,2025-03-30
-C078,Zoé Pereira,aurelielegendre@example.net,+33 5 63 78 65 10,Guibert,2024-11-22
-C079,Claire Gautier de la Laporte,wreynaud@example.net,0233205351,Sainte Benoît-les-Bains,2025-09-01
-C080,Jules Lecomte,arnaudediaz@example.com,+33 (0)6 12 14 04 28,Leroux-sur-Rey,2024-08-29
-C081,Yves Moulin,dclement@example.net,+33 3 64 19 35 37,Saint Stéphane,2025-04-07
-C082,Odette Gautier,morelemile@example.net,0351888573,Joseph-sur-Laine,2024-04-15
-C083,Auguste Rodrigues,timothee19@example.com,+33 (0)2 19 15 52 13,CharpentierBourg,2024-11-12
-C084,Dorothée Lopes-Fernandes,bsimon@example.net,0594968341,Hervéboeuf,2024-12-17
-C085,Lorraine Guillon-Dumont,colasadele@example.net,0233362402,Lamy-sur-Joubert,2025-10-03
-C086,Joseph Valentin du Toussaint,marcel05@example.com,03 29 12 93 73,Sainte Michelnec,2024-12-19
-C087,Thibault Pascal,brigittehenry@example.com,05 56 47 90 41,Chartier,2024-05-09
-C088,Aimé de la Michel,danielledelattre@example.com,05 46 19 07 44,VidalVille,2024-10-04
-C089,Nicolas Perez de Cordier,sabinealbert@example.com,05 49 06 71 91,PagesVille,2024-02-09
-C090,Jean Marie,madeleinegodard@example.org,04 68 68 19 51,Cohen,2025-03-18
-C091,Claude Chevallier-Maillet,launaynathalie@example.net,+33 (0)3 62 88 91 27,Tanguynec,2024-02-28
-C092,Christelle Delorme,lopesetienne@example.com,0372849062,Gauthiernec,2023-12-27
-C093,Xavier-Yves Peltier,rousseldavid@example.com,0276640042,Pinto,2024-02-28
-C094,Franck Poirier,laurence60@example.com,0363002893,Sainte Roland-sur-Mer,2024-05-31
-C095,Olivie Bonnin,luceevrard@example.com,+33 1 58 05 55 22,Saint Gérard,2023-10-22
-C096,Susan Brunel,celinetecher@example.net,+33 4 89 50 14 73,Clerc,2025-04-03
-C097,Agathe Chartier de Meyer,grossylvie@example.org,0495316113,Guyot,2024-03-28
-C098,Arthur Vallet,genevievelemaire@example.net,02 90 99 04 66,Ruiz,2024-12-17
-C099,Astrid Ruiz,labbethomas@example.org,0250166746,MichaudBourg,2024-01-08
-C100,Daniel Pinto Le Vasseur,baudrymaggie@example.net,01 41 53 57 82,Aubry,2025-09-09
+customer_id,name,email,phone,city,region,registration_date
+C001,Fatou Diallo,fatou.diallo@outlook.com,+221 708254839,Louga,Nord,2024-07-16
+C002,Coumba Barry,coumba.barry@gmail.com,+221 703504353,Sédhiou,Sud,2025-04-29
+C003,Pape Diop,pape.diop@yahoo.fr,+221 777176354,Fatick,Centre,2023-11-27
+C004,Coumba Camara,coumba.camara@gmail.com,+221 761859268,Sédhiou,Sud,2025-04-23
+C005,Ibrahima Barry,ibrahima.barry@yahoo.fr,+221 775511082,Fatick,Centre,2024-06-03
+C006,Moussa Camara,moussa.camara@gmail.com,+221 768021875,Louga,Nord,2024-05-18
+C007,Khady Diop,khady.diop@gmail.com,+221 704981344,Thiès,Thiès,2025-08-14
+C008,Fatou Thiam,fatou.thiam@outlook.com,+221 709376700,Sédhiou,Sud,2024-01-13
+C009,Khady Gueye,khady.gueye@outlook.com,+221 786531261,Thiès,Thiès,2024-06-08
+C010,Tidiane Faye,tidiane.faye@outlook.com,+221 776346808,Richard-Toll,Nord,2024-07-29
+C011,Pape Faye,pape.faye@gmail.com,+221 768866202,Dakar,Dakar,2025-01-29
+C012,Tidiane Ly,tidiane.ly@outlook.com,+221 702815557,Fatick,Centre,2024-12-31
+C013,Aminata Gueye,aminata.gueye@gmail.com,+221 766043377,Matam,Nord,2025-04-13
+C014,Tidiane Ndiaye,tidiane.ndiaye@yahoo.fr,+221 781095140,Mbour,Thiès,2024-07-10
+C015,Lamine Kane,lamine.kane@yahoo.fr,+221 783519175,Fatick,Centre,2024-11-25
+C016,Lamine Diop,lamine.diop@yahoo.fr,+221 785110116,Mbour,Thiès,2025-10-20
+C017,Aminata Faye,aminata.faye@gmail.com,+221 707994397,Kolda,Sud,2025-03-26
+C018,Fatou Fall,fatou.fall@gmail.com,+221 773440636,Kaffrine,Centre,2025-06-27
+C019,Mariama Ly,mariama.ly@outlook.com,+221 774562390,Ziguinchor,Sud,2024-01-02
+C020,Alioune Thiam,alioune.thiam@yahoo.fr,+221 778249173,Tambacounda,Est,2024-11-09
+C021,Ibrahima Camara,ibrahima.camara@outlook.com,+221 779584763,Fatick,Centre,2025-07-14
+C022,Lamine Diop,lamine.diop@outlook.com,+221 788264447,Ziguinchor,Sud,2024-01-28
+C023,Ibrahima Faye,ibrahima.faye@outlook.com,+221 786021326,Podor,Nord,2024-06-25
+C024,Sokhna Sarr,sokhna.sarr@yahoo.fr,+221 773028753,Sédhiou,Sud,2024-07-11
+C025,Awa Diallo,awa.diallo@outlook.com,+221 777561273,Louga,Nord,2024-07-01
+C026,Cheikh Sarr,cheikh.sarr@gmail.com,+221 777303389,Tambacounda,Est,2024-06-13
+C027,Tidiane Ly,tidiane.ly@gmail.com,+221 762117801,Mbour,Thiès,2024-10-11
+C028,Lamine Gueye,lamine.gueye@gmail.com,+221 764889959,Mbour,Thiès,2024-12-28
+C029,Tidiane Barry,tidiane.barry@outlook.com,+221 772179151,Matam,Nord,2024-09-15
+C030,Alioune Kane,alioune.kane@outlook.com,+221 709477873,Kaolack,Centre,2025-10-01
+C031,Pape Ndao,pape.ndao@gmail.com,+221 781836545,Saint-Louis,Nord,2023-12-11
+C032,Khady Ndao,khady.ndao@yahoo.fr,+221 761491274,Ziguinchor,Sud,2025-04-03
+C033,Khady Diop,khady.diop@outlook.com,+221 781560215,Kolda,Sud,2024-06-11
+C034,Adama Sy,adama.sy@outlook.com,+221 762051804,Rufisque,Dakar,2024-10-16
+C035,Cheikh Kane,cheikh.kane@yahoo.fr,+221 774947143,Fatick,Centre,2024-04-18
+C036,Alioune Thiam,alioune.thiam@yahoo.fr,+221 766850441,Sédhiou,Sud,2024-01-14
+C037,Tidiane Ba,tidiane.ba@gmail.com,+221 771870478,Sédhiou,Sud,2024-08-26
+C038,Bineta Kane,bineta.kane@gmail.com,+221 776585078,Dakar,Dakar,2025-05-19
+C039,Sokhna Sy,sokhna.sy@outlook.com,+221 788198507,Podor,Nord,2025-09-06
+C040,Bineta Diagne,bineta.diagne@gmail.com,+221 787453981,Podor,Nord,2024-02-08
+C041,Ibrahima Diallo,ibrahima.diallo@gmail.com,+221 771054620,Fatick,Centre,2024-12-06
+C042,Bineta Sow,bineta.sow@gmail.com,+221 766484710,Kaolack,Centre,2024-07-10
+C043,Sokhna Diallo,sokhna.diallo@outlook.com,+221 704004719,Tambacounda,Est,2025-02-24
+C044,Pape Camara,pape.camara@gmail.com,+221 706957195,Louga,Nord,2025-01-02
+C045,Aminata Faye,aminata.faye@yahoo.fr,+221 773471885,Saint-Louis,Nord,2024-08-31
+C046,Tidiane Kane,tidiane.kane@yahoo.fr,+221 785330983,Mbour,Thiès,2025-05-06
+C047,Lamine Lo,lamine.lo@yahoo.fr,+221 781661626,Kaffrine,Centre,2023-10-31
+C048,Bineta Diallo,bineta.diallo@gmail.com,+221 708117576,Kaffrine,Centre,2024-01-26
+C049,Awa Ba,awa.ba@gmail.com,+221 787661568,Kaolack,Centre,2024-11-22
+C050,Bineta Toure,bineta.toure@outlook.com,+221 768267466,Kaolack,Centre,2025-08-01
+C051,Awa Sow,awa.sow@outlook.com,+221 786751071,Dakar,Dakar,2024-08-15
+C052,Astou Thiam,astou.thiam@yahoo.fr,+221 781837446,Louga,Nord,2024-02-05
+C053,Abdou Lo,abdou.lo@yahoo.fr,+221 703296017,Matam,Nord,2024-05-08
+C054,Fatou Diagne,fatou.diagne@outlook.com,+221 761498966,Mbour,Thiès,2025-10-16
+C055,Khady Diallo,khady.diallo@gmail.com,+221 771781782,Mbour,Thiès,2024-05-20
+C056,Sokhna Camara,sokhna.camara@yahoo.fr,+221 701933741,Kolda,Sud,2024-11-19
+C057,Coumba Toure,coumba.toure@outlook.com,+221 765272694,Tambacounda,Est,2025-02-21
+C058,Adama Fall,adama.fall@yahoo.fr,+221 774524649,Mbour,Thiès,2024-04-17
+C059,Tidiane Barry,tidiane.barry@outlook.com,+221 704586037,Kédougou,Est,2025-10-12
+C060,Bineta Diallo,bineta.diallo@yahoo.fr,+221 771080900,Sédhiou,Sud,2024-12-17
+C061,Cheikh Gueye,cheikh.gueye@yahoo.fr,+221 774624134,Mbour,Thiès,2024-08-18
+C062,Coumba Faye,coumba.faye@yahoo.fr,+221 772105074,Matam,Nord,2025-08-27
+C063,Pape Camara,pape.camara@gmail.com,+221 784547372,Dakar,Dakar,2024-09-25
+C064,Coumba Faye,coumba.faye@outlook.com,+221 783571845,Richard-Toll,Nord,2025-09-22
+C065,Moussa Toure,moussa.toure@outlook.com,+221 709151372,Saint-Louis,Nord,2025-09-09
+C066,Awa Faye,awa.faye@yahoo.fr,+221 788118093,Dakar,Dakar,2025-03-10
+C067,Pape Cisse,pape.cisse@outlook.com,+221 705041712,Richard-Toll,Nord,2024-07-07
+C068,Aminata Kane,aminata.kane@yahoo.fr,+221 702040558,Rufisque,Dakar,2024-09-26
+C069,Awa Kane,awa.kane@yahoo.fr,+221 705479593,Kolda,Sud,2025-05-11
+C070,Khady Toure,khady.toure@outlook.com,+221 701902025,Kaffrine,Centre,2024-03-14
+C071,Adama Sow,adama.sow@yahoo.fr,+221 778346476,Ziguinchor,Sud,2024-08-08
+C072,Tidiane Gueye,tidiane.gueye@gmail.com,+221 773742824,Dakar,Dakar,2025-09-23
+C073,Sokhna Toure,sokhna.toure@yahoo.fr,+221 705952358,Podor,Nord,2024-03-03
+C074,Moussa Ndiaye,moussa.ndiaye@yahoo.fr,+221 786770989,Mbour,Thiès,2024-03-20
+C075,Bineta Lo,bineta.lo@yahoo.fr,+221 709433536,Podor,Nord,2024-08-30
+C076,Mariama Thiam,mariama.thiam@yahoo.fr,+221 709143538,Kaffrine,Centre,2024-10-09
+C077,Ndeye Faye,ndeye.faye@outlook.com,+221 765845503,Sédhiou,Sud,2023-11-18
+C078,Fatou Lo,fatou.lo@yahoo.fr,+221 785492160,Kaolack,Centre,2025-02-05
+C079,Awa Lo,awa.lo@outlook.com,+221 778530482,Kolda,Sud,2024-07-29
+C080,Abdou Fall,abdou.fall@yahoo.fr,+221 706403755,Matam,Nord,2025-08-10
+C081,Mamadou Cisse,mamadou.cisse@gmail.com,+221 768850871,Saint-Louis,Nord,2023-12-02
+C082,Ibrahima Sy,ibrahima.sy@yahoo.fr,+221 777495114,Podor,Nord,2025-07-14
+C083,Aminata Cisse,aminata.cisse@gmail.com,+221 766131051,Saint-Louis,Nord,2025-07-02
+C084,Tidiane Sarr,tidiane.sarr@outlook.com,+221 705555405,Ziguinchor,Sud,2024-03-07
+C085,Coumba Lo,coumba.lo@yahoo.fr,+221 777469242,Kaolack,Centre,2025-08-09
+C086,Pape Diallo,pape.diallo@gmail.com,+221 785463468,Matam,Nord,2025-05-03
+C087,Fatou Sow,fatou.sow@gmail.com,+221 703222721,Sédhiou,Sud,2024-07-23
+C088,Ndeye Faye,ndeye.faye@outlook.com,+221 769804389,Kédougou,Est,2025-02-10
+C089,Alioune Toure,alioune.toure@gmail.com,+221 766894064,Fatick,Centre,2025-06-23
+C090,Fatou Lo,fatou.lo@gmail.com,+221 764537885,Matam,Nord,2025-08-11
+C091,Awa Ba,awa.ba@gmail.com,+221 777492462,Kaolack,Centre,2024-10-16
+C092,Khady Ba,khady.ba@gmail.com,+221 769900032,Tambacounda,Est,2024-08-13
+C093,Aminata Sow,aminata.sow@yahoo.fr,+221 769345525,Matam,Nord,2024-11-01
+C094,Lamine Kane,lamine.kane@yahoo.fr,+221 709893383,Richard-Toll,Nord,2024-07-04
+C095,Adama Ba,adama.ba@yahoo.fr,+221 763761657,Louga,Nord,2024-02-24
+C096,Lamine Gueye,lamine.gueye@outlook.com,+221 709822612,Saint-Louis,Nord,2023-11-21
+C097,Ndeye Camara,ndeye.camara@gmail.com,+221 781737707,Dakar,Dakar,2025-04-20
+C098,Cheikh Fall,cheikh.fall@outlook.com,+221 782427049,Rufisque,Dakar,2025-04-01
+C099,Khady Camara,khady.camara@gmail.com,+221 769544230,Podor,Nord,2024-05-02
+C100,Coumba Diop,coumba.diop@yahoo.fr,+221 761737098,Kolda,Sud,2025-04-22
