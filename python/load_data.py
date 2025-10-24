@@ -12,12 +12,12 @@ DB_CONFIG = {
 
 conn = mysql.connector.connect(**DB_CONFIG)
 cursor = conn.cursor()
-print("✅ Connexion réussie à MySQL.")
+print("Connexion réussie à MySQL.")
 
 # --- Dossier de données ---
 DATA_DIR = "../data/raw"
 
-# --- Chargement dans l'ordre logique ---
+# --- Chargement des données ---
 TABLES = [
     ("customers.csv", "customers"),
     ("staff.csv", "staff"),
@@ -28,11 +28,11 @@ TABLES = [
 ]
 
 def insert_data(file_path, table_name):
-    print(f"\n📥 Chargement du fichier : {file_path}")
+    print(f"\nChargement du fichier : {file_path}")
     df = pd.read_csv(file_path)
     df = df.where(pd.notnull(df), None)
 
-    # Vérifier colonnes existantes dans la table
+    # On Vérifie les colonnes existantes dans la table
     cursor.execute(f"SHOW COLUMNS FROM {table_name}")
     valid_cols = [col[0] for col in cursor.fetchall()]
     df = df[[c for c in df.columns if c in valid_cols]]
@@ -45,10 +45,10 @@ def insert_data(file_path, table_name):
         try:
             cursor.execute(sql, tuple(row))
         except mysql.connector.errors.IntegrityError as e:
-            print(f"⚠️ Ligne ignorée (doublon ou contrainte) : {e}")
+            print(f"Ligne ignorée (doublon ou contrainte) : {e}")
 
     conn.commit()
-    print(f"✅ Données insérées dans '{table_name}' ({len(df)} lignes).")
+    print(f"Données insérées dans '{table_name}' ({len(df)} lignes).")
 
 # --- Exécution globale ---
 for file_name, table_name in TABLES:
@@ -56,8 +56,8 @@ for file_name, table_name in TABLES:
     if os.path.exists(file_path):
         insert_data(file_path, table_name)
     else:
-        print(f"⚠️ Fichier manquant : {file_path}")
+        print(f"Fichier manquant : {file_path}")
 
 cursor.close()
 conn.close()
-print("\n🎉 Chargement terminé avec succès !")
+print("\nChargement terminé avec succès !")
