@@ -29,3 +29,63 @@ L’objectif est de permettre à la direction :
 - de piloter la **performance commerciale et opérationnelle** ;
 - de mieux comprendre **le comportement des clients** ;
 - et de **prendre des décisions éclairées** pour optimiser les coûts, la satisfaction et la rentabilité.
+## 
+
+erDiagram
+    CUSTOMERS ||--o{ ORDERS : places
+    CUSTOMERS ||--o{ BOOKINGS : reserves
+    STAFF ||--o{ ORDERS : takes
+    STAFF ||--o{ BOOKINGS : manages
+    MENU ||--o{ ORDERS : contains
+    ORDERS ||--o{ DELIVERIES : generates
+
+    CUSTOMERS {
+        varchar customer_id PK
+        varchar name
+        varchar email
+        varchar phone
+        varchar city
+        varchar region
+        date registration_date
+    }
+
+    STAFF {
+        varchar staff_id PK
+        varchar name
+        varchar role
+        date hire_date
+        decimal salary
+    }
+
+    MENU {
+        varchar menu_id PK
+        varchar dish_name
+        decimal price
+    }
+
+    ORDERS {
+        varchar order_id PK
+        varchar customer_id FK
+        varchar staff_id FK
+        varchar menu_id FK
+        date order_date
+        int quantity
+        decimal total_amount
+    }
+
+    DELIVERIES {
+        varchar delivery_id PK
+        varchar order_id FK
+        varchar delivery_person
+        datetime delivery_time
+        varchar status
+    }
+
+    BOOKINGS {
+        varchar booking_id PK
+        varchar customer_id FK
+        varchar staff_id FK
+        date booking_date
+        int num_people
+        varchar status
+    }
