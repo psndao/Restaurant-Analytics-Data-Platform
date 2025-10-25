@@ -34,10 +34,5 @@ L’objectif est de permettre à la direction :
 
 ![Architecture du projet](docs/architecture.png)
 
-<p align="center">
-  <img src="docs/architecture.png" alt="Schéma de l’architecture" width="600">
-</p>
-
-
 
 
