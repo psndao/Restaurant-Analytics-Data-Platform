@@ -99,7 +99,7 @@ pip install -r requirements.txt
 
 3. Configurer l’environnement
 cp .env.example .env
-# puis éditer les valeurs : DB_USER, DB_PASSWORD, DB_NAME, etc.
+puis éditer les valeurs : DB_USER, DB_PASSWORD, DB_NAME, etc.
 
 4. Tester la connexion
 python main.py
