@@ -29,3 +29,6 @@ L’objectif est de permettre à la direction :
 - de piloter la **performance commerciale et opérationnelle** ;
 - de mieux comprendre **le comportement des clients** ;
 - et de **prendre des décisions éclairées** pour optimiser les coûts, la satisfaction et la rentabilité.
+
+
+
