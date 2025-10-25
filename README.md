@@ -107,3 +107,14 @@ python main.py
 5. Lancer l’API
 uvicorn api.main:app --reload
 
+
+## Dashboard Streamlit (à venir)
+
+L’application Streamlit permettra :
+- de visualiser les ventes et performances en temps réel,
+- de suivre les KPI clés (CA, taux de livraison, satisfaction),
+- et de filtrer par période, région, ou membre du staff.
+
+Exemple de page : dashboards/app.py (prochaine étape du projet)
+
+
