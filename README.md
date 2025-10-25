@@ -29,63 +29,48 @@ L’objectif est de permettre à la direction :
 - de piloter la **performance commerciale et opérationnelle** ;
 - de mieux comprendre **le comportement des clients** ;
 - et de **prendre des décisions éclairées** pour optimiser les coûts, la satisfaction et la rentabilité.
-## 
+  
+## Architecture du projet
+Restaurant Analytics Data Platform/
+│
+├── api/                          # API FastAPI — Interface REST pour exposer les données
+│   ├── main.py                   # Point d’entrée principal de l’API
+│   ├── database.py               # Connexion MySQL (pool de connexions + gestion .env)
+│   ├── routers/                  # Dossiers de routes
+│   │   ├── customers.py          # Endpoints CRUD clients
+│   │   ├── orders.py             # Endpoints CRUD commandes
+│   │   ├── analytics.py          # Endpoints analytiques (vues SQL)
+│   │   └── staff.py              # Endpoints CRUD employés
+│   ├── schemas/                  # (optionnel) Modèles Pydantic pour validation
+│
+├── data/
+│   ├── raw/                      # Données brutes CSV (exportées du restaurant)
+│   │   ├── customers.csv
+│   │   ├── orders.csv
+│   │   ├── staff.csv
+│   │   ├── menu.csv
+│   │   ├── deliveries.csv
+│   │   └── bookings.csv
+│   └── processed/                # Données nettoyées / enrichies
+│
+├── python/                       # Scripts ETL et gestion de la base MySQL
+│   ├── database.py               # Création du schéma MySQL
+│   ├── load_data.py              # Chargement des CSV dans la base
+│   └── utils.py                  # Fonctions utilitaires (log, validation, etc.)
+│
+├── sql/                          # Scripts SQL bruts
+│   ├── create_schema.sql         # Création de la base et des tables
+│   ├── views.sql                 # Création des vues analytiques
+│   └── sample_queries.sql        # Requêtes de test
+│
+├── dashboards/                   # Tableau de bord analytique (Streamlit à venir)
+│   └── app.py                    # Application Streamlit
+│
+├── .env                          # Identifiants MySQL
+├── requirements.txt              # Dépendances Python
+├── test_connection.py            # Test unitaire de la connexion MySQL
+└── README.md                     # Documentation du projet
 
-erDiagram
-    CUSTOMERS ||--o{ ORDERS : places
-    CUSTOMERS ||--o{ BOOKINGS : reserves
-    STAFF ||--o{ ORDERS : takes
-    STAFF ||--o{ BOOKINGS : manages
-    MENU ||--o{ ORDERS : contains
-    ORDERS ||--o{ DELIVERIES : generates
 
-    CUSTOMERS {
-        varchar customer_id PK
-        varchar name
-        varchar email
-        varchar phone
-        varchar city
-        varchar region
-        date registration_date
-    }
 
-    STAFF {
-        varchar staff_id PK
-        varchar name
-        varchar role
-        date hire_date
-        decimal salary
-    }
 
-    MENU {
-        varchar menu_id PK
-        varchar dish_name
-        decimal price
-    }
-
-    ORDERS {
-        varchar order_id PK
-        varchar customer_id FK
-        varchar staff_id FK
-        varchar menu_id FK
-        date order_date
-        int quantity
-        decimal total_amount
-    }
-
-    DELIVERIES {
-        varchar delivery_id PK
-        varchar order_id FK
-        varchar delivery_person
-        datetime delivery_time
-        varchar status
-    }
-
-    BOOKINGS {
-        varchar booking_id PK
-        varchar customer_id FK
-        varchar staff_id FK
-        date booking_date
-        int num_people
-        varchar status
-    }
